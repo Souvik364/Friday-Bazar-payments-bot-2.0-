@@ -1,0 +1,21 @@
+# Add this handler right after the initiate_payment function in payment.py
+
+@router.callback_query(F.data.startswith("buy_direct:"))
+async def initiate_direct_payment(callback: CallbackQuery, state: FSMContext):
+    """
+    Handle direct purchase (bypass all checks)
+    Format: buy_direct:service_id:duration:price
+    """
+    parts = callback.data.split(":")
+    service_id = parts[1]
+    plan_duration = parts[2]
+    price = float(parts[3])
+    
+    service = get_service(service_id)
+    if not service:
+        await callback.answer("❌ Service not found", show_alert=True)
+        return
+    
+    # Direct payment - no checks, just create order
+    await _create_payment_order(callback, service_id, service, plan_duration, price)
+    await callback.answer("✅ Payment QR generated!")

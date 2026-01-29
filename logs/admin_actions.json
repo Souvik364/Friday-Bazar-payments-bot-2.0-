@@ -1,0 +1,63 @@
+{
+  "actions": [
+    {
+      "action_id": "ac206fe6-4466-4375-a2a0-4f58944fef4c",
+      "admin_id": 5154770707,
+      "admin_username": "Admin",
+      "action_type": "bulk_price_update",
+      "details": {
+        "percent": 4.0,
+        "increase": true,
+        "count": 8
+      },
+      "timestamp": "2026-01-29T20:04:46.728434"
+    },
+    {
+      "action_id": "ee45d93f-325a-4a35-8b88-3339bec958ad",
+      "admin_id": 5154770707,
+      "admin_username": "Admin",
+      "action_type": "service_toggle",
+      "details": {
+        "service": "spotify",
+        "enabled": true
+      },
+      "timestamp": "2026-01-29T20:05:03.790552"
+    },
+    {
+      "action_id": "3f1e3dd8-c4bf-4a70-914c-47d991cf361f",
+      "admin_id": 5154770707,
+      "admin_username": "Admin",
+      "action_type": "bulk_price_update",
+      "details": {
+        "percent": 4.0,
+        "increase": false,
+        "count": 8
+      },
+      "timestamp": "2026-01-29T22:27:04.328230"
+    },
+    {
+      "action_id": "f7864726-1ac9-45ac-9b4e-19b4158f3608",
+      "admin_id": 5154770707,
+      "admin_username": "Admin",
+      "action_type": "bulk_price_update",
+      "details": {
+        "percent": 1.0,
+        "increase": true,
+        "count": 8
+      },
+      "timestamp": "2026-01-29T22:30:13.976696"
+    },
+    {
+      "action_id": "1937017f-38e9-47ca-a141-51f41f862a39",
+      "admin_id": 5154770707,
+      "admin_username": "Admin",
+      "action_type": "bulk_price_update",
+      "details": {
+        "percent": 5.0,
+        "increase": true,
+        "count": 8
+      },
+      "timestamp": "2026-01-29T22:31:57.472866"
+    }
+  ]
+}
