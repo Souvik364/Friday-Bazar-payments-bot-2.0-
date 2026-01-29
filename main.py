@@ -33,10 +33,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize bot
-bot = Bot(
-    token=BOT_TOKEN,
-    parse_mode=ParseMode.MARKDOWN
-)
+try:
+    from aiogram.client.default_bot_properties import DefaultBotProperties
+    bot = Bot(
+        token=BOT_TOKEN,
+        default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN)
+    )
+except ImportError:
+    logger.warning("DefaultBotProperties not available. Starting bot without default parse_mode.")
+    bot = Bot(token=BOT_TOKEN)
+except Exception as e:
+    logger.error(f"Failed to initialize Bot: {e}")
+    raise e
 
 # Initialize dispatcher
 dp = Dispatcher()
@@ -196,3 +204,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         logger.info("Bot stopped by user")
+
