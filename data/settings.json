@@ -1,0 +1,27 @@
+{
+  "qr_settings": {
+    "use_default_qr": false,
+    "default_qr_file_id": null,
+    "default_qr_url": null,
+    "upi_id": "yourupi@paytm",
+    "upi_name": "Friday Bazar",
+    "updated_by": null,
+    "updated_at": null
+  },
+  "payment_system": {
+    "enabled": true,
+    "disabled_message": "⚠️ Payment system is temporarily under maintenance. Please try again later or contact support.",
+    "disabled_at": null,
+    "disabled_by": null,
+    "disabled_reason": null
+  },
+  "pricing": {
+    "allow_dynamic_pricing": true,
+    "last_bulk_update": "2026-01-29T22:31:57.454312",
+    "price_history_enabled": true
+  },
+  "notifications": {
+    "notify_on_price_change": true,
+    "notify_on_system_toggle": true
+  }
+}

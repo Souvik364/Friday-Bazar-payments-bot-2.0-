@@ -1,0 +1,137 @@
+{
+  "zee5": {
+    "name": "Zee5 Premium",
+    "emoji": "🎬",
+    "instruction": "• Login with mobile number\n• 4K Quality supported",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "price": 50,
+        "original_price": 99
+      },
+      {
+        "duration": "1 Year",
+        "price": 400,
+        "original_price": 999
+      }
+    ],
+    "available": false
+  },
+  "youtube": {
+    "name": "YouTube Premium",
+    "emoji": "📺",
+    "instruction": "• Ad-free videos\n• Background play\n• YouTube Music included",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "price": 25,
+        "original_price": 129,
+        "custom_qr_file_id": "AgACAgUAAxkBAAIFM2l7bcQZf5BexbXDgRL7hGwP2Wr-AAKHDmsbskrgVzTJ2seH6cYZAQADAgADeAADOAQ"
+      },
+      {
+        "duration": "3 Months",
+        "price": 69,
+        "original_price": 387
+      }
+    ],
+    "available": true
+  },
+  "spotify": {
+    "name": "Spotify Premium",
+    "emoji": "🎵",
+    "instruction": "• Ad-free music\n• Offline playback\n• High quality audio",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "price": 29,
+        "original_price": 119
+      },
+      {
+        "duration": "1 Year",
+        "price": 313,
+        "original_price": 1189
+      }
+    ],
+    "available": true
+  },
+  "sonyliv": {
+    "name": "SonyLIV Premium",
+    "emoji": "🏏",
+    "instruction": "• Live Sports (Cricket, Football)\n• Latest Movies & Web Series",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "price": 50,
+        "original_price": 299
+      },
+      {
+        "duration": "1 Year",
+        "price": 313,
+        "original_price": 999
+      }
+    ],
+    "available": false
+  },
+  "hotstar": {
+    "name": "Disney+ Hotstar",
+    "emoji": "🌟",
+    "instruction": "• 4K Movies & Shows\n• Live Sports\n• Ad-free entertainment",
+    "plans": [
+      {
+        "duration": "3 Months",
+        "price": 155,
+        "original_price": 499
+      },
+      {
+        "duration": "1 Year",
+        "price": 526,
+        "original_price": 1499
+      }
+    ],
+    "available": false
+  },
+  "canva": {
+    "name": "Canva Pro",
+    "emoji": "🎨",
+    "instruction": "• Premium templates\n• Magic Resize\n• Brand Kit",
+    "plans": [
+      {
+        "duration": "Lifetime",
+        "price": 101,
+        "original_price": 3999
+      }
+    ],
+    "available": false
+  },
+  "netflix": {
+    "name": "Netflix Premium",
+    "emoji": "🍿",
+    "instruction": "• 4K HDR Quality\n• Multi-screen support",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "price": 155,
+        "original_price": 649
+      },
+      {
+        "duration": "6 Months",
+        "price": 843,
+        "original_price": 3894
+      }
+    ],
+    "available": false
+  },
+  "prime": {
+    "name": "Amazon Prime",
+    "emoji": "📦",
+    "instruction": "• Prime Video\n• Free delivery\n• Amazon Music",
+    "plans": [
+      {
+        "duration": "1 Year",
+        "price": 526,
+        "original_price": 1499
+      }
+    ],
+    "available": false
+  }
+}
