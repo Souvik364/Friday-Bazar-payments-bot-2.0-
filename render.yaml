@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: friday-bazar-bot
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
+      - key: UPI_ID
+        sync: false
+      - key: UPI_NAME
+        sync: false
+      - key: SUPPORT_USERNAME
+        sync: false
+      - key: BOT_NAME
+        value: FRIDAY BAZAR Refund
+      - key: PAYMENT_TIMEOUT_MINUTES
+        value: 10
+      - key: REFERRAL_COMMISSION_PERCENT
+        value: 10
+      - key: PORT
+        value: 8080
